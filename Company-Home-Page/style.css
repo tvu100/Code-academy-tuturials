@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;800&display=swap");
+body {
+  font-size: 18px;
+  margin: 0;
+  font-family: "Mukta", sans-serif;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+header {
+  z-index: 10;
+  position: fixed;
+  height: 80px;
+  background-color: white;
+  border-bottom: #bb2026 solid 2px;
+  -webkit-box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.349);
+          box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.349);
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+}
+
+header img {
+  padding-left: 50px;
+  height: 100%;
+}
+
+nav {
+  padding-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: flex-end;
+  float: right;
+}
+
+nav span {
+  display: inline-block;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #bb2026;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+}
+
+#mission {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  color: white;
+}
+
+#mission img {
+  margin: 0;
+  position: relative;
+  height: 60%;
+}
+
+#mission h2 {
+  position: relative;
+  border: #bb2026 solid 2px;
+  padding: 10px;
+  padding-right: 200px;
+  padding-left: 200px;
+  text-shadow: 2px 2px 4px black;
+}
+
+#mission::before {
+  z-index: -1;
+  content: "";
+  background-image: url(/Company-Home-Page/imgs/waffles.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+.redBox {
+  background-color: #bb2026;
+  padding: 10px;
+  color: white;
+}
+
+.whiteBox {
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
+
+.stretchLeft {
+  width: 100%;
+}
+
+#WhatWeDo {
+  height: 100vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(./imgs/smoke.jpg);
+  background-size: cover;
+}
+
+#WhatWeDo div {
+  padding-right: 6em;
+}
+
+#WhatWeDo h1 {
+  text-align: left;
+  font-size: 5em;
+  line-height: 0.9;
+}
+
+#WhatWeDo p {
+  padding: 30px;
+  width: 50%;
+}
+
+#OurWork {
+  height: 100vh;
+  background-image: url(./imgs/Background-red-small-fade.jpg);
+  background-size: cover;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#OurWork #gallery {
+  border: white solid;
+  overflow: hidden;
+  height: 50%;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+#OurWork #gallery img {
+  padding: 5px;
+  max-height: 50%;
+  width: auto;
+}
+
+#OurWork h1 {
+  margin-left: 30px;
+  text-align: left;
+  font-size: 5em;
+  line-height: 0.9;
+  color: #bb2026;
+}
+/*# sourceMappingURL=style.css.map */
