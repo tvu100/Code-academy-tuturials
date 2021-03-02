@@ -106,7 +106,7 @@ nav a {
 #mission::before {
   z-index: -1;
   content: "";
-  background-image: url(/Company-Home-Page/imgs/waffles.jpg);
+  background-image: url(./imgs/waffles.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;
